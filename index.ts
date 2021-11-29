@@ -9,7 +9,7 @@ const preOrder: boolean = Boolean(product.preOrder);
 if ( preOrder === true ){
   console.log('Congrats! Your product is on its way.');
 } 
-else if (preOrder === false){
+else {
   console.log('Sorry, this product is not available for preorder.');
 }
 
